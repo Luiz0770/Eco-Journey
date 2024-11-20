@@ -17,17 +17,17 @@ export default function MissionDetail() {
 
     return (
         <div>
-            <div className="mt-16 grid grid-cols-1 md:grid-cols-2 items-center">
-                <i className={`${missaoSelecionada.icone} text-center text-[150px]`} ></i>
+            <div className="mt-24 grid grid-cols-1 md:grid-cols-2 items-center">
+                <i className={`${missaoSelecionada.icone} animate-float text-center text-[150px]`} ></i>
                 <div className="flex flex-col gap-1 max-w-max">
                     <h3 className="font-semibold text-3xl">{missaoSelecionada.titulo}</h3>
                     <p className="font-medium text-lg">{missaoSelecionada.descricao}</p>
-                    <div  className="flex items-center justify-between">
+                    <div className="flex items-center justify-between">
+                        <p className="text-lg">Pontos: <span className="text-xl font-semibold">{missaoSelecionada.pontos}</span></p>
                         <BtnFavoritar
                             funcao={() => filmesAssistir(movie)}
                             color={"red-800"}
                         />
-                        <span>Pontos: {missaoSelecionada.pontos}</span>
                     </div>
                 </div>
             </div>
