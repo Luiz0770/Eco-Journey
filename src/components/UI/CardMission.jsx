@@ -2,7 +2,7 @@
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-export default function CardMission({ id, icone, titulo, descrisao, pontos }) {
+export default function CardMission({ id, icone, titulo, descrisao, pontos, }) {
   // const [isFavorited, setIsFavorited] = useState(false);
 
   // const toggleFavorite = () => {

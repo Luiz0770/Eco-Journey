@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "titulo": "Reduza o consumo de energia elétrica",
+        "descricao": "Diminua o uso de aparelhos eletrônicos por 2 horas hoje.",
+        "pontos": 10,
+        "icone": "fa-solid fa-bolt"
+    },
+    {
+        "id": 2,
+        "titulo": "Economize água",
+        "descricao": "Limite o tempo no banho a 5 minutos.",
+        "pontos": 15,
+        "icone": "fa-solid fa-tint"
+    },
+    {
+        "id": 3,
+        "titulo": "Evite desperdício de alimentos",
+        "descricao": "Reutilize sobras para criar uma refeição.",
+        "pontos": 20,
+        "icone": "fa-solid fa-apple-alt"
+    },
+    {
+        "id": 4,
+        "titulo": "Faça um trajeto sustentável",
+        "descricao": "Caminhe, use uma bicicleta ou transporte público.",
+        "pontos": 15,
+        "icone": "fa-solid fa-bicycle"
+    },
+    {
+        "id": 5,
+        "titulo": "Recicle materiais",
+        "descricao": "Separe pelo menos 5 itens recicláveis hoje.",
+        "pontos": 10,
+        "icone": "fa-solid fa-recycle"
+    },
+    {
+        "id": 6,
+        "titulo": "Reduza o uso de plástico descartável",
+        "descricao": "Use garrafas reutilizáveis por uma semana.",
+        "pontos": 55,
+        "icone": "fa-solid fa-trash-alt"
+    },
+    {
+        "id": 7,
+        "titulo": "Participe de uma ação comunitária",
+        "descricao": "Junte-se a um mutirão de limpeza local.",
+        "pontos": 40,
+        "icone": "fa-solid fa-people-arrows"
+    },
+    {
+        "id": 8,
+        "titulo": "Planeje refeições conscientes",
+        "descricao": "Compre alimentos de produtores locais.",
+        "pontos": 25,
+        "icone": "fa-solid fa-shopping-cart"
+    },
+    {
+        "id": 9,
+        "titulo": "Aumente a eficiência energética",
+        "descricao": "Desligue aparelhos em stand-by por 7 dias.",
+        "pontos": 20,
+        "icone": "fa-solid fa-plug"
+    },
+    {
+        "id": 10,
+        "titulo": "Experimente um dia sem carne",
+        "descricao": "Prepare refeições vegetarianas ou veganas por um dia.",
+        "pontos": 25,
+        "icone": "fa-solid fa-leaf"
+    }
+]
