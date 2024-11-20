@@ -22,13 +22,16 @@ export default function Login() {
     };
 
     return (
-        <div className="relative w-screen h-screen font-poppins overflow-hidden">
+        <div className="relative h-[95vh] font-poppins overflow-hidden">
             {/* Wave */}
             <img className="absolute bottom-0 left-0 h-full z-[-1] hidden md:block" src={wave} />
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-7 p-8 h-full">
+
                 <div className="hidden md:flex justify-end items-center">
-                    <img src={imgLogin} alt="Background" className="w-[500px]" />
+                    <img src={imgLogin} alt="Background" className="w-[600px]" />
                 </div>
+                
                 {/* Login */}
                 <div className="flex justify-center items-center">
                     <form className="w-[360px]">
@@ -36,8 +39,8 @@ export default function Login() {
                             <img src={imgAvatar} alt="Avatar" className="h-[100px]" />
                         </div>
                         <h2 className="text-3xl text-center text-gray-800 mt-4 mb-6">Bem-Vindo!</h2>
-                        <div className={`relative flex items-center gap-4 border-b-2 ${usernameIsFocused ? "border-green-400" : "border-gray-300"} mb-6`}>
-                            <i className={`fas fa-user ${usernameIsFocused ? "text-green-400" : "text-gray-400"}`}></i>
+                        <div className={`relative flex items-center gap-4 border-b-2 ${usernameIsFocused ? "border-green-800" : "border-gray-300"} mb-6`}>
+                            <i className={`fas fa-user ${usernameIsFocused ? "text-green-800" : "text-gray-400"}`}></i>
                             <div className="flex-grow relative">
                                 <label
                                     className={`absolute left-2 top-1/2 -translate-y-1/2 ${usernameIsFocused || usernameRef.current?.value

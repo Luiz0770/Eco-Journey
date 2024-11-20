@@ -10,7 +10,7 @@ export default function Home() {
             <About/>
             <CardHome/>
             <Solution/>
-            <section className="my-36 px-5">
+            <section className="mt-36 px-5">
                 <div className="text-center">
                     <h2 className="font-bold text-5xl md:text-6xl text-green-800 mb-4">Empower Eco-Warrior</h2>
                     <p className="text-lightgreen md:w-3/4 mx-auto text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste doloremque mollitia incidunt laudantium voluptas fugiat reiciendis, adipisci corrupti voluptate reprehenderit.</p>

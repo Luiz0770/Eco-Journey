@@ -18,7 +18,7 @@ export default function Parallax() {
         const handleScroll = () => {
             const value = window.scrollY;
 
-            if (textRef.current) textRef.current.style.top = 35 + value * 0.25 + "%";
+            if (textRef.current) textRef.current.style.top = 35 + value * 0.05 + "%";
             if (btnRef.current) btnRef.current.style.marginTop = value * 1.5 + "px";
             if (rocksRef.current) rocksRef.current.style.top = value * -0.12 + "px";
             if (forestRef.current) forestRef.current.style.top = value * -0.1 + "px";

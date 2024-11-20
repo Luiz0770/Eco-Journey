@@ -7,14 +7,16 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        ranch: ['Rancho', 'cursive'], // Fonte Rancho
-        poppins: ['Poppins', 'sans-serif'], // Fonte Poppins
+        ranch: ['Rancho', 'cursive'],
+        poppins: ['Poppins', 'sans-serif'], 
       },
       colors: {
-        heroText: '#017880', // Cor personalizada usada no texto do hero
-        lightgreen: '#808C83',
+        heroText: '#017880',
+        lightgreen: '#808C83', 
+        darkgreen: '#165D31',
+        darkestgreen: '#073418',
       },
     },
   },
-  plugins: [],
+  plugins: []
 };
