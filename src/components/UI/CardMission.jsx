@@ -1,7 +1,8 @@
 // import { useState } from "react";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-export default function CardMission({ icone, titulo, descrisao, pontos }) {
+export default function CardMission({ id, icone, titulo, descrisao, pontos }) {
   // const [isFavorited, setIsFavorited] = useState(false);
 
   // const toggleFavorite = () => {
@@ -9,7 +10,7 @@ export default function CardMission({ icone, titulo, descrisao, pontos }) {
   // };
 
   return (
-    <div className="relative w-full border rounded-lg shadow-lg transition duration-300 hover:scale-105 hover:bg-slate-50 cursor-pointer">
+    <Link to={`/mission/${id}`} className="relative w-full border rounded-lg shadow-lg transition duration-300 hover:scale-105 hover:bg-slate-50 cursor-pointer">
       <h3 className="text-center py-5 uppercase font-semibold">Missão Diaria</h3>
       <FaStar className="absolute top-4 right-4 text-gray-400 hover:text-yellow-500 w-6 h-6 duration-100 transition"/>
       {/* // onClick={toggleFavorite} */}
@@ -24,6 +25,6 @@ export default function CardMission({ icone, titulo, descrisao, pontos }) {
           <p className="text-sm text-gray-500">{descrisao}</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

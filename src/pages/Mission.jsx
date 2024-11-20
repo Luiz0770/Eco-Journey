@@ -100,6 +100,7 @@ export default function Mission() {
                 <Accordion titulo={"Missoes Diarias"}>
                     {dailyMission.map(missao =>
                         <CardMission key={missao.id}
+                            id={missao.id}
                             titulo={missao.titulo}
                             descrisao={missao.descricao}
                             pontos={missao.pontos}

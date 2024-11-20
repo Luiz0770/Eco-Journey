@@ -11,6 +11,7 @@ import Mission from './pages/Mission.jsx';
 import Ranking from './pages/Ranking.jsx';
 import Contato from './pages/Contato.jsx';
 import Login from './pages/Login.jsx';
+import MissionDetail from './pages/MissionDeatil.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "/mission", element: <Mission /> },
+      { path: "/mission/:missionId", element: <MissionDetail /> },
       { path: "/ranking", element: <Ranking /> },
       { path: "/contato", element: <Contato /> },
       { path: "/login", element: <Login /> },
