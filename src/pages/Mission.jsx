@@ -16,7 +16,7 @@ export default function Mission() {
     function favoritar(mission) {
         if (!missoesFavoritadas.some((missao) => missao.id === mission.id)) {
             const listaAtualizada = [...missoesFavoritadas, mission];
-            setMissoesFavoritadas(missoesFavoritadas);
+            setMissoesFavoritadas(listaAtualizada);
             localStorage.setItem("missoesFavoritas", JSON.stringify(listaAtualizada));
         }
         else {
@@ -28,7 +28,6 @@ export default function Mission() {
         }
     }
 
-
     return (
         <section id="mission" className="mt-16">
             <h2 className="mb-8 text-center font-semibold text-5xl">Missões</h2>
@@ -36,7 +35,7 @@ export default function Mission() {
 
                 {/* Missoes Diarias */}
                 <Accordion titulo={"Missoes Diarias"}>
-                    {missions.map(missao =>
+                    {missions.missoesDiarias.map(missao =>
                         <CardMission
                             key={missao.id}
                             missao={missao}
@@ -47,7 +46,7 @@ export default function Mission() {
 
                 {/* Missoes Semanais */}
                 <Accordion titulo={"Missoes Semanais"}>
-                    {missions.map(missao =>
+                    {missions.missoesSemanais.map(missao =>
                         <CardMission
                             key={missao.id}
                             missao={missao}
@@ -58,7 +57,7 @@ export default function Mission() {
 
                 {/* Missoes Especiais */}
                 <Accordion titulo={"Missoes Especiais"}>
-                    {missions.map(missao =>
+                    {missions.missoesEspeciais.map(missao =>
                         <CardMission
                             key={missao.id}
                             missao={missao}

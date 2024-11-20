@@ -11,7 +11,12 @@ import Mission from './pages/Mission.jsx';
 import Ranking from './pages/Ranking.jsx';
 import Contato from './pages/Contato.jsx';
 import Login from './pages/Login.jsx';
-import MissionDetail from './pages/MissionDeatil.jsx';
+import MissionDetail from './pages/MissionDetail.jsx';
+
+// Loading
+import { dotWave } from 'ldrs'
+dotWave.register()
+
 
 const router = createBrowserRouter([
   {
@@ -23,10 +28,13 @@ const router = createBrowserRouter([
       { path: "/mission/:missionId", element: <MissionDetail /> },
       { path: "/ranking", element: <Ranking /> },
       { path: "/contato", element: <Contato /> },
-      { path: "/login", element: <Login /> },
       { path: "*", element: <PageNotFound /> },
     ],
   },
+  {
+    path: "/login",
+    element: <Login />,
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

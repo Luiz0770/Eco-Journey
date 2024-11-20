@@ -1,82 +1,88 @@
-[
-    {
-        "id": "reduce-energy-use",
-        "titulo": "Reduza o consumo de energia elétrica",
-        "subtitulo": "Diminua o uso de aparelhos eletrônicos por 2 horas hoje.",
-        "descricao": "Ao reduzir o consumo de energia elétrica, você ajuda a diminuir a demanda por fontes não renováveis, como carvão e gás natural, que emitem gases de efeito estufa. Pequenas ações podem reduzir o impacto ambiental e economizar recursos naturais.",
-        "pontos": 10,
-        "icone": "fa-solid fa-bolt"
-    },
-    {
-        "id": "save-water",
-        "titulo": "Economize água",
-        "subtitulo": "Limite o tempo no banho a 5 minutos.",
-        "descricao": "A água é um recurso precioso e limitado. Economizar no banho reduz o desperdício e ajuda a preservar rios e reservatórios, além de diminuir o consumo de energia necessário para aquecer a água.",
-        "pontos": 15,
-        "icone": "fa-solid fa-tint"
-    },
-    {
-        "id": "avoid-food-waste",
-        "titulo": "Evite desperdício de alimentos",
-        "subtitulo": "Reutilize sobras para criar uma refeição.",
-        "descricao": "Aproveitar sobras de alimentos evita o desperdício e reduz a quantidade de resíduos enviados a aterros, onde podem liberar metano, um potente gás de efeito estufa. Essa prática também valoriza os alimentos e economiza recursos.",
-        "pontos": 20,
-        "icone": "fa-solid fa-apple-alt"
-    },
-    {
-        "id": "sustainable-commute",
-        "titulo": "Faça um trajeto sustentável",
-        "subtitulo": "Caminhe, use uma bicicleta ou transporte público.",
-        "descricao": "Escolher alternativas de transporte sustentável reduz a emissão de poluentes e gases de efeito estufa provenientes de veículos. Além disso, contribui para a melhora da qualidade do ar e sua saúde.",
-        "pontos": 15,
-        "icone": "fa-solid fa-bicycle"
-    },
-    {
-        "id": "recycle-materials",
-        "titulo": "Recicle materiais",
-        "subtitulo": "Separe pelo menos 5 itens recicláveis hoje.",
-        "descricao": "A reciclagem economiza energia e recursos naturais, reduzindo a necessidade de extrair matérias-primas e diminuindo o volume de resíduos nos aterros sanitários.",
-        "pontos": 10,
-        "icone": "fa-solid fa-recycle"
-    },
-    {
-        "id": "reduce-plastic-use",
-        "titulo": "Reduza o uso de plástico descartável",
-        "subtitulo": "Use garrafas reutilizáveis por uma semana.",
-        "descricao": "Plásticos descartáveis demoram séculos para se decompor e causam danos significativos à vida marinha e ao meio ambiente. Usar alternativas reutilizáveis diminui a poluição e promove práticas mais sustentáveis.",
-        "pontos": 55,
-        "icone": "fa-solid fa-trash-alt"
-    },
-    {
-        "id": "community-action",
-        "titulo": "Participe de uma ação comunitária",
-        "subtitulo": "Junte-se a um mutirão de limpeza local.",
-        "descricao": "Ações comunitárias, como mutirões de limpeza, ajudam a reduzir a poluição e aumentar a conscientização ambiental. Essas iniciativas tornam os espaços públicos mais limpos e agradáveis para todos.",
-        "pontos": 40,
-        "icone": "fa-solid fa-people-arrows"
-    },
-    {
-        "id": "plan-conscious-meals",
-        "titulo": "Planeje refeições conscientes",
-        "subtitulo": "Compre alimentos de produtores locais.",
-        "descricao": "Apoiar produtores locais reduz a pegada de carbono associada ao transporte de alimentos, promove a economia regional e incentiva práticas agrícolas mais sustentáveis.",
-        "pontos": 25,
-        "icone": "fa-solid fa-shopping-cart"
-    },
-    {
-        "id": "increase-energy-efficiency",
-        "titulo": "Aumente a eficiência energética",
-        "subtitulo": "Desligue aparelhos em stand-by por 7 dias.",
-        "descricao": "Dispositivos em stand-by consomem energia sem necessidade. Desligá-los economiza energia e reduz a emissão de gases de efeito estufa associados à geração de eletricidade.",
-        "pontos": 20,
-        "icone": "fa-solid fa-plug"
-    },
-    {
-        "id": "try-meatless-day",
-        "titulo": "Experimente um dia sem carne",
-        "subtitulo": "Prepare refeições vegetarianas ou veganas por um dia.",
-        "descricao": "Reduzir o consumo de carne diminui a pegada de carbono associada à pecuária, uma das principais fontes de emissão de gases de efeito estufa. Também ajuda a preservar recursos como água e solo.",
-        "pontos": 25,
-        "icone": "fa-solid fa-leaf"
-    }
-]
+{
+    "missoesDiarias": [
+        {
+            "id": "reduce-energy-use",
+            "titulo": "Reduza o consumo de energia elétrica",
+            "subtitulo": "Diminua o uso de aparelhos eletrônicos por 2 horas hoje.",
+            "descricao": "Ao reduzir o consumo de energia elétrica, você ajuda a diminuir a demanda por fontes não renováveis, como carvão e gás natural, que emitem gases de efeito estufa. Pequenas ações podem reduzir o impacto ambiental e economizar recursos naturais.",
+            "pontos": 10,
+            "icone": "fa-solid fa-bolt"
+        },
+        {
+            "id": "save-water",
+            "titulo": "Economize água",
+            "subtitulo": "Limite o tempo no banho a 5 minutos.",
+            "descricao": "A água é um recurso precioso e limitado. Economizar no banho reduz o desperdício e ajuda a preservar rios e reservatórios, além de diminuir o consumo de energia necessário para aquecer a água.",
+            "pontos": 15,
+            "icone": "fa-solid fa-tint"
+        },
+        {
+            "id": "avoid-food-waste",
+            "titulo": "Evite desperdício de alimentos",
+            "subtitulo": "Reutilize sobras para criar uma refeição.",
+            "descricao": "Aproveitar sobras de alimentos evita o desperdício e reduz a quantidade de resíduos enviados a aterros, onde podem liberar metano, um potente gás de efeito estufa. Essa prática também valoriza os alimentos e economiza recursos.",
+            "pontos": 20,
+            "icone": "fa-solid fa-apple-alt"
+        }
+    ],
+    "missoesSemanais": [
+        {
+            "id": "sustainable-commute",
+            "titulo": "Faça um trajeto sustentável",
+            "subtitulo": "Caminhe, use uma bicicleta ou transporte público.",
+            "descricao": "Escolher alternativas de transporte sustentável reduz a emissão de poluentes e gases de efeito estufa provenientes de veículos. Além disso, contribui para a melhora da qualidade do ar e sua saúde.",
+            "pontos": 15,
+            "icone": "fa-solid fa-bicycle"
+        },
+        {
+            "id": "recycle-materials",
+            "titulo": "Recicle materiais",
+            "subtitulo": "Separe pelo menos 5 itens recicláveis hoje.",
+            "descricao": "A reciclagem economiza energia e recursos naturais, reduzindo a necessidade de extrair matérias-primas e diminuindo o volume de resíduos nos aterros sanitários.",
+            "pontos": 10,
+            "icone": "fa-solid fa-recycle"
+        },
+        {
+            "id": "reduce-plastic-use",
+            "titulo": "Reduza o uso de plástico descartável",
+            "subtitulo": "Use garrafas reutilizáveis por uma semana.",
+            "descricao": "Plásticos descartáveis demoram séculos para se decompor e causam danos significativos à vida marinha e ao meio ambiente. Usar alternativas reutilizáveis diminui a poluição e promove práticas mais sustentáveis.",
+            "pontos": 55,
+            "icone": "fa-solid fa-trash-alt"
+        }
+    ],
+    "missoesEspeciais": [
+        {
+            "id": "community-action",
+            "titulo": "Participe de uma ação comunitária",
+            "subtitulo": "Junte-se a um mutirão de limpeza local.",
+            "descricao": "Ações comunitárias, como mutirões de limpeza, ajudam a reduzir a poluição e aumentar a conscientização ambiental. Essas iniciativas tornam os espaços públicos mais limpos e agradáveis para todos.",
+            "pontos": 40,
+            "icone": "fa-solid fa-people-arrows"
+        },
+        {
+            "id": "plan-conscious-meals",
+            "titulo": "Planeje refeições conscientes",
+            "subtitulo": "Compre alimentos de produtores locais.",
+            "descricao": "Apoiar produtores locais reduz a pegada de carbono associada ao transporte de alimentos, promove a economia regional e incentiva práticas agrícolas mais sustentáveis.",
+            "pontos": 25,
+            "icone": "fa-solid fa-shopping-cart"
+        },
+        {
+            "id": "increase-energy-efficiency",
+            "titulo": "Aumente a eficiência energética",
+            "subtitulo": "Desligue aparelhos em stand-by por 7 dias.",
+            "descricao": "Dispositivos em stand-by consomem energia sem necessidade. Desligá-los economiza energia e reduz a emissão de gases de efeito estufa associados à geração de eletricidade.",
+            "pontos": 20,
+            "icone": "fa-solid fa-plug"
+        },
+        {
+            "id": "try-meatless-day",
+            "titulo": "Experimente um dia sem carne",
+            "subtitulo": "Prepare refeições vegetarianas ou veganas por um dia.",
+            "descricao": "Reduzir o consumo de carne diminui a pegada de carbono associada à pecuária, uma das principais fontes de emissão de gases de efeito estufa. Também ajuda a preservar recursos como água e solo.",
+            "pontos": 25,
+            "icone": "fa-solid fa-leaf"
+        }
+    ]
+}
