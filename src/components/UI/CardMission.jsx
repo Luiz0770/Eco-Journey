@@ -24,11 +24,11 @@ export default function CardMission({ missao, label, favoritar }) {
   return (
     <Link
       to={`/mission/${missao.id}`}
-      className="relative w-full border rounded-lg shadow-lg transition duration-300 hover:scale-105 hover:bg-slate-50 cursor-pointer"
+      className="relative w-full border rounded-lg shadow-lg transition duration-300 hover:scale-105 hover:bg-darkBege cursor-pointer"
     >
       <h3 className="text-center py-5 uppercase font-semibold">{label}</h3>
       <FaStar
-        className={`absolute top-4 right-4 w-6 h-6 duration-100 transition ${isFavorited ? "text-yellow-500" : "text-gray-400"
+        className={`absolute top-4 right-4 w-6 h-6 duration-100 transition ${isFavorited ? "text-yellow-500" : "text-gray-700"
           }`}
         onClick={aoFavoritar}
       />

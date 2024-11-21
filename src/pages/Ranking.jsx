@@ -9,7 +9,7 @@ export default function Ranking() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const fetchPeople = await fetch("https://673e50850118dbfe860aedf6.mockapi.io/api/v1/people")
+                const fetchPeople = await fetch("https://673e48cc0118dbfe860acb01.mockapi.io/api/mission/people")
                 const resPeople = await fetchPeople.json();
                 setPeople(resPeople)
             }

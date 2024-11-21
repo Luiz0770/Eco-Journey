@@ -1,100 +1,91 @@
 import { MdMailOutline, MdOutlineMap, MdOutlineLocalPhone } from "react-icons/md";
-import shape from '../assets/shape.png'
+
 export default function Contato() {
     return (
         <>
-            <div className="relative w-full min-h-[95vh] flex items-center justify-center p-8">
-                <div className="relative grid grid-cols-1 md:grid-cols-2 w-full max-w-5xl bg-white rounded-lg shadow-2xl overflow-hidden">
-                    {/* Contact Info Section */}
-                    <div className="p-8">
-                        <h3 className="text-teal-500 text-2xl font-semibold mb-4">
-                            Let's get in touch
+            <div className="relative w-full flex items-center justify-center py-8 ">
+                <div className="relative grid grid-cols-1 md:grid-cols-2 w-full overflow-hidden">
+                    {/* Seção de Informações de Contato */}
+                    <div className="p-8 md:block hidden">
+                        <h3 className="text-2xl font-semibold mb-4">
+                            Entre em contato conosco
                         </h3>
-                        <p className="text-gray-700 mb-6">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                            dolorum adipisci recusandae praesentium dicta!
+                        <p className="mb-6">
+                            Estamos aqui para ajudar! Entre em contato para dúvidas, sugestões ou suporte.
                         </p>
                         <div className="space-y-4">
-                            <div className="flex items-center text-gray-600">
-                                <MdOutlineMap className="w-6 mr-3" />
-                                <p>92 Cherry Drive Uniondale, NY 11553</p>
+                            <div className="flex items-center">
+                                <MdOutlineMap className="w-6 h-6 mr-3" />
+                                <p>Rua Exemplo, 123, São Paulo, SP</p>
                             </div>
-                            <div className="flex items-center text-gray-600">
-                                <MdMailOutline className="w-6 mr-3" />
-                                <p>lorem@ipsum.com</p>
+                            <div className="flex items-center">
+                                <MdMailOutline className="w-6 h-6 mr-3" />
+                                <p>contato@exemplo.com</p>
                             </div>
-                            <div className="flex items-center text-gray-600">
-                                <MdOutlineLocalPhone className="w-6 mr-3" />
-                                <p>123-456-789</p>
+                            <div className="flex items-center">
+                                <MdOutlineLocalPhone className="w-6 h-6 mr-3" />
+                                <p>(11) 98765-4321</p>
                             </div>
                         </div>
                         <div className="mt-6">
-                            <p className="text-gray-700 mb-3">Connect with us :</p>
+                            <p className="mb-3">Siga-nos nas redes sociais:</p>
                             <div className="flex space-x-4">
-                                <a href="#" className="w-8 h-8 bg-gradient-to-r from-teal-400 to-teal-600 rounded-full text-white flex items-center justify-center">
-                                    <i className="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" className="w-8 h-8 bg-gradient-to-r from-teal-400 to-teal-600 rounded-full text-white flex items-center justify-center">
-                                    <i className="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" className="w-8 h-8 bg-gradient-to-r from-teal-400 to-teal-600 rounded-full text-white flex items-center justify-center">
-                                    <i className="fab fa-instagram"></i>
-                                </a>
-                                <a href="#" className="w-8 h-8 bg-gradient-to-r from-teal-400 to-teal-600 rounded-full text-white flex items-center justify-center">
-                                    <i className="fab fa-linkedin-in"></i>
-                                </a>
+                                <i className="fab fa-facebook-f w-8 h-8 text-[#165D31] rounded-full flex items-center justify-center hover:bg-gray-200 transition"></i>
+                                <i className="w-8 h-8 text-[#165D31] rounded-full flex items-center justify-center hover:bg-gray-200 transition fab fa-twitter"></i>
+                                <i className="w-8 h-8 text-[#165D31] rounded-full flex items-center justify-center hover:bg-gray-200 transition fab fa-instagram"></i>
+                                <i className="w-8 h-8 text-[#165D31] rounded-full flex items-center justify-center hover:bg-gray-200 transition fab fa-linkedin-in"></i>
                             </div>
                         </div>
                     </div>
 
-                    {/* Form Section */}
-                    <div className="relative bg-teal-500 p-8">
-                        <div className="absolute w-[130px] h-[130px] bg-gradient-to-br from-transparent to-teal-700 rounded-full top-[130px] right-[-40px]"></div>
-                        <div className="absolute w-[80px] h-[80px] bg-gradient-to-br from-transparent to-teal-700 rounded-full top-2 right-[30px]"></div>
+                    {/* Seção do Formulário */}
+                    <div className="relative bg-[#073418] p-8 text-white">
+                        <div className="absolute w-[130px] h-[130px] bg-gradient-to-br from-transparent to-[#165D31] rounded-full top-[130px] right-[-40px]"></div>
+                        <div className="absolute w-[80px] h-[80px] bg-gradient-to-br from-transparent to-[#165D31] rounded-full top-2 right-[30px]"></div>
                         <form className="relative z-10">
-                            <h3 className="text-white text-2xl font-semibold mb-6">Contact us</h3>
+                            <h3 className="text-2xl font-semibold mb-6">Fale Conosco</h3>
                             <div className="mb-4">
-                                <label className="block text-white mb-2">Username</label>
+                                <label className="block mb-2">Nome</label>
                                 <input
                                     type="text"
-                                    className="w-full p-3 rounded-full border-2 border-gray-100 bg-transparent text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-300"
-                                    placeholder="Enter your username"
+                                    className="w-full p-3 rounded-full border-2 border-gray-300 bg-transparent placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#165D31]"
+                                    placeholder="Digite seu nome"
                                 />
                             </div>
                             <div className="mb-4">
-                                <label className="block text-white mb-2">Email</label>
+                                <label className="block mb-2">E-mail</label>
                                 <input
                                     type="email"
-                                    className="w-full p-3 rounded-full border-2 border-gray-100 bg-transparent text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-300"
-                                    placeholder="Enter your email"
+                                    className="w-full p-3 rounded-full border-2 border-gray-300 bg-transparent placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#165D31]"
+                                    placeholder="Digite seu e-mail"
                                 />
                             </div>
                             <div className="mb-4">
-                                <label className="block text-white mb-2">Phone</label>
+                                <label className="block mb-2">Telefone</label>
                                 <input
                                     type="tel"
-                                    className="w-full p-3 rounded-full border-2 border-gray-100 bg-transparent text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-300"
-                                    placeholder="Enter your phone number"
+                                    className="w-full p-3 rounded-full border-2 border-gray-300 bg-transparent placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#165D31]"
+                                    placeholder="Digite seu telefone"
                                 />
                             </div>
                             <div className="mb-6">
-                                <label className="block text-white mb-2">Message</label>
+                                <label className="block mb-2">Mensagem</label>
                                 <textarea
-                                    className="w-full p-3 rounded-xl border-2 border-gray-100 bg-transparent text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-300"
-                                    placeholder="Write your message"
+                                    className="w-full p-3 rounded-xl border-2 border-gray-300 bg-transparent placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#165D31]"
+                                    placeholder="Escreva sua mensagem"
                                     rows="4"
                                 ></textarea>
                             </div>
                             <button
                                 type="submit"
-                                className="bg-white text-teal-500 px-6 py-3 rounded-full hover:bg-teal-400 hover:text-white transition duration-300"
+                                className="bg-[#165D31] text-white px-6 py-3 rounded-full hover:bg-[#0e4b25] transition duration-300"
                             >
-                                Send
+                                Enviar
                             </button>
                         </form>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 }

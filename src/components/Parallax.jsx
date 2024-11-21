@@ -55,14 +55,14 @@ export default function Parallax() {
                 <img src={bird1} id="bird1" ref={bird1Ref} className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" />
                 <img src={bird2} id="bird2" ref={bird2Ref} className="absolute top-0 right-0 w-full h-full object-cover pointer-events-none" />
                 <img src={forest} id="forest" ref={forestRef} className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" />
-                <Link
+                <a
                     id="btn"
-                    to="/"
+                    href="#about"
                     ref={btnRef}
                     className="inline-block px-8 py-3 bg-white text-heroText text-xl font-medium tracking-wider rounded-full transform translate-y-[100px] no-underline"
                 >
                     Explore
-                </Link>
+                </a>
                 <img src={rocks} id="rocks" ref={rocksRef} className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" />
                 <img src={water} id="water" className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" />
             </section>

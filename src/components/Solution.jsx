@@ -2,15 +2,15 @@ import imgLandscape from '../assets/landscape.png'
 
 export default function Solution() {
     return (
-        <section id="solution" className="my-20">
-            <div className="py-10 px-5 text-white grid bg-[#e4dcc4] grid-cols-1 md:grid-cols-2 items-center">
+        <section id="solution" className="my-56">
+            <div className="py-10 px-5 text-white grid bg-darkestgreen grid-cols-1 md:grid-cols-2 items-center">
                 <div id="about-image">
                     <img src={imgLandscape} alt="Paisagem de uma floresta" className='md:w-5/6 mx-auto' />
                 </div>
                 {/* Infos */}
                 <div id="about-infos" className="flex flex-col items-start gap-10 md:gap-20 md:px-20">
                     <div id='about-text' className='flex flex-col gap-6 text-lightgreen'>
-                        <h2 className='text-5xl font-bold text-green-800'>Cultivate an</h2>
+                        <h2 className='text-5xl font-bold text-white'>Cultivate an</h2>
                         <h3 className='font-semibold text-xl md:text-lg leading-7'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perspiciatis nesciunt beatae eius ab ducimus maiores? Minus ad dolores dolorem impedit atque modi voluptatem pariatur expedita. Eligendi optio dicta harum?
                         </h3>

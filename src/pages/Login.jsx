@@ -41,9 +41,9 @@ export default function Login() {
                             <div className="flex justify-center">
                                 <img src={imgAvatar} alt="Avatar" className="h-[100px]" />
                             </div>
-                            <h2 className="text-3xl text-center text-gray-800 mt-4 mb-6">Bem-Vindo!</h2>
+                            <h2 className="text-3xl text-center mt-4 mb-6">Bem-Vindo!</h2>
                             <div className={`relative flex items-center gap-4 border-b-2 ${usernameIsFocused ? "border-darkgreen" : "border-gray-300"} mb-6`}>
-                                <i className={`fas fa-user ${usernameIsFocused ? "text-darkgreen" : "text-gray-400"}`}></i>
+                                <i className={`fas fa-user ${usernameIsFocused ? "text-darkgreen" : ""}`}></i>
                                 <div className="flex-grow relative">
                                     <label
                                         className={`absolute left-2 top-1/2 -translate-y-1/2 ${usernameIsFocused || usernameRef.current?.value
@@ -58,7 +58,7 @@ export default function Login() {
                                         ref={usernameRef}
                                         id="username"
                                         type="text"
-                                        className="w-full border-none outline-none text-gray-700 text-lg p-2 focus:outline-none focus:ring-0"
+                                        className="bg-transparent w-full border-none outline-none text-lg p-2 focus:outline-none focus:ring-0"
                                         onFocus={() => isFocus(setUsernameIsFocused)}
                                         onBlur={() =>
                                             isBlur(setUsernameIsFocused, usernameRef)
@@ -68,7 +68,7 @@ export default function Login() {
                             </div>
 
                             <div className={`relative flex items-center gap-4 border-b-2 ${senhaIsFocused ? "border-darkgreen" : "border-gray-300"} mb-4`}>
-                                <i className={`fas fa-lock ${senhaIsFocused ? "text-darkgreen" : "text-gray-400"}`}></i>
+                                <i className={`fas fa-lock ${senhaIsFocused ? "text-darkgreen" : ""}`}></i>
                                 <div className="flex-grow relative">
                                     <label
                                         className={`absolute left-2 top-1/2 -translate-y-1/2 ${senhaIsFocused || senhaRef.current?.value
@@ -83,7 +83,7 @@ export default function Login() {
                                         ref={senhaRef}
                                         id="password"
                                         type="password"
-                                        className="w-full border-none outline-none text-gray-700 text-lg p-2 focus:outline-none focus:ring-0"
+                                        className="bg-transparent w-full border-none outline-none text-gray-700 text-lg p-2 focus:outline-none focus:ring-0"
                                         onFocus={() => isFocus(setSenhaIsFocused)}
                                         onBlur={() =>
                                             isBlur(setSenhaIsFocused, senhaRef)
