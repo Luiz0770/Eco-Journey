@@ -47,10 +47,10 @@ export default function Parallax() {
                     className="absolute text-[25vw] md:text-[10vw] text-center leading-[0.55em] text-[#094b65] font-ranch transform translate-y-[-90%]"
                 >
                     <span className="text-2xl md:text-3xl tracking-wider font-poppins font-light">
-                        It`s time for a new
+                        É hora de uma nova jornada!
                     </span>
                     <br />
-                    Adventure
+                    Eco Journey
                 </h2>
                 <img src={bird1} id="bird1" ref={bird1Ref} className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" />
                 <img src={bird2} id="bird2" ref={bird2Ref} className="absolute top-0 right-0 w-full h-full object-cover pointer-events-none" />

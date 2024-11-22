@@ -5,10 +5,11 @@ export default function CardHome() {
     return (
         <section id="cardHome" className='my-24 md:my-4 min-h-screen bg-bege'>
             <div id="cardHome-texts" className="flex flex-col text-center justify-center items-center gap-5 px-5">
-                <h2 className="text-5xl text-green-800 font-semibold">Empowering Eco-Warriors</h2>
-                <h4 className="md:w-3/6 text-[#808C83] font-semibold text-lg md:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rerum porro possimus labore, maxime doloremque voluptas excepturi libero saepe assumenda cumque expedita. Mollitia ad, id recusandae doloribus qui fugiat maxime.</h4>
+                <h2 className="text-5xl text-green-800 font-semibold">A Importância da Transição Energética</h2>
+                <h4 className="md:w-3/6 text-[#808C83] font-semibold text-lg md:text-base mb-5">A transição para fontes renováveis é essencial para reduzir emissões de gases de efeito estufa, promover independência energética e gerar benefícios econômicos e sociais. Apesar dos desafios como altos investimentos iniciais e a necessidade de políticas públicas eficazes, essas alternativas abre caminho para um futuro mais limpo, seguro e inovador.</h4>
+                <h3 className='text-lightgreen text-xl'>Abaixo, você conhecerá as principais fontes de energia renovável e suas vantagens para transformar o mundo!</h3>
             </div>
-            <div className="my-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 justify-center items-stretch content-center px-5 place-items-center">
+            <div className="my-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 justify-center items-stretch content-center px-5">
                 <Card
                     titulo={"Energia Solar ☀️"}
                     texto={"A energia solar aproveita a luz do sol, que é captada por painéis fotovoltaicos e convertida em eletricidade. Essa fonte é abundante, disponível em todo o mundo e uma das formas mais limpas de gerar energia. Além de reduzir significativamente a emissão de gases de efeito estufa, também ajuda a diminuir os custos com energia elétrica. Uma curiosidade interessante é que, em apenas uma hora, a Terra recebe mais energia solar do que toda a humanidade consome em um ano."} />
@@ -26,7 +27,7 @@ export default function CardHome() {
                     texto={"A energia geotérmica utiliza o calor natural do interior da Terra para gerar eletricidade. Captada de reservatórios subterrâneos, essa fonte de energia é extremamente eficiente e está disponível o tempo todo, independentemente do clima. Ideal para regiões com alta atividade geotérmica, como a Islândia, onde quase 30% da energia gerada vem dessa fonte, ela também tem um impacto ambiental reduzido, tornando-se uma opção sustentável e confiável."} />
 
                 <Card
-                    titulo={"Energia de Biomassa 🌱"} 
+                    titulo={"Energia de Biomassa 🌱"}
                     texto={"A biomassa transforma materiais orgânicos, como resíduos agrícolas, restos de alimentos e madeira, em energia. Essa fonte é inovadora porque ajuda a reduzir o desperdício e as emissões de metano provenientes de aterros sanitários. Além de ser renovável e econômica, a biomassa é utilizada em diversas partes do mundo para produzir biocombustíveis e energia elétrica. É uma maneira eficaz de transformar resíduos em uma solução para o futuro sustentável."} />
             </div>
         </section>

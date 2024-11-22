@@ -11,25 +11,14 @@ export default function About() {
                     <div id='about-text' className='flex flex-col gap-8'>
                         <h2 className='text-5xl font-bold'>O Desafio da Crise Energética</h2>
                         <h3 className='font-medium text-xl md:text-lg leading-7'>
-                            A crise energética é uma realidade que impacta a todos. O esgotamento de combustíveis fósseis, o aumento da poluição e as mudanças climáticas são reflexos de um modelo de consumo insustentável.
+                            A crise energética é um dos maiores desafios globais, marcada pelo esgotamento de combustíveis fósseis, altos níveis de poluição e agravamento das mudanças climáticas. Décadas de exploração intensiva de recursos não renováveis e o aumento da demanda global por energia têm pressionado ainda mais o sistema, enquanto a transição para fontes renováveis ocorre de forma lenta.
+                        </h3>
+                        <h3 className='font-medium text-xl md:text-lg leading-7'>
+                            As consequências são graves: aquecimento global, eventos climáticos extremos, perda de biodiversidade e impactos na saúde humana e ambiental. Repensar a forma como produzimos e consumimos energia é essencial para garantir um futuro sustentável.
                         </h3>
                     </div>
-                    <ul className='text-lg flex flex-col gap-4'>
-                        <li>
-                            <span className='font-semibold text-xl'>Impactos no Planeta:</span>
-                            <p>
-                                A queima de combustíveis fósseis é responsável por mais de 75% das emissões de gases de efeito estufa.
-                            </p>
-                        </li>
-                        <li>
-                            <span className='font-semibold text-xl'>Na Vida Cotidiana: </span>
-                            <p>
-                                Desastres climáticos, aumento no custo de energia e escassez de recursos naturais afetam diretamente nossa qualidade de vida.
-                            </p>
-                        </li>
-                    </ul>
-                    <div>
-                        <button className='bg-green-800 py-3 px-5 rounded-xl w-full md:w-auto mb-5'>Start Your Sustainability Journey</button>
+                    <div className='flex flex-col'>
+                        <a href='#solution' className='max-w-max bg-green-800 py-3 px-5 rounded-xl w-full md:w-auto mb-5 active:scale-105 duration-200'>Comece sua Jornada Sustentavel!</a>
                         <h3 className='font-semibold text-slate-400-400 text-md'>
                             É hora de agir. Precisamos de soluções práticas para mitigar esses impactos e construir um futuro mais sustentável.
                         </h3>

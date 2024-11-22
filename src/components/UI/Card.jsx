@@ -12,7 +12,7 @@ export default function Card({ titulo, texto }) {
                         <h3 className='text-2xl font-semibold'>{titulo}</h3>
                         <p className='leading-7 text-lg font-semibold md:font-normal'>{texto}</p>
                     </div>
-                    <button className='p-4 md:py-5 md:px-10 bg-yellow-500 rounded-full text-green-800 font-semibold hover:scale-105 transition text-lg md:text-xl w-full'>Saiba Mais!</button>
+                    <a href='#solution' className=' text-center p-4 md:py-5 md:px-10 bg-yellow-500 rounded-full text-green-800 font-semibold hover:scale-105 active:bg-darkestgreen transition text-lg md:text-xl w-full'>Saiba Mais!</a>
                 </div>
                 {/* Card Imagem */}
                 {/* <div id="card-image" className='bg-neutral-300 rounded-3xl md:rounded-e-2xl flex items-center '>
