@@ -1,9 +1,11 @@
 import { MdMailOutline, MdOutlineMap, MdOutlineLocalPhone } from "react-icons/md";
+import Header from "../components/Layout/Header";
 
 export default function Contato() {
     return (
         <>
-            <div className="relative w-full flex items-center justify-center py-8 ">
+            <Header/>
+            <div className="relative w-full flex items-center justify-center py-8 min-h-[90vh]">
                 <div className="relative grid grid-cols-1 md:grid-cols-2 w-full overflow-hidden">
                     {/* Seção de Informações de Contato */}
                     <div className="p-8 md:block hidden">

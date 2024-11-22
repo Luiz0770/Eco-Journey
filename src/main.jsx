@@ -27,13 +27,16 @@ const router = createBrowserRouter([
       { path: "/mission", element: <Mission /> },
       { path: "/mission/:missionId", element: <MissionDetail /> },
       { path: "/ranking", element: <Ranking /> },
-      { path: "/contato", element: <Contato /> },
       { path: "*", element: <PageNotFound /> },
     ],
   },
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/contato",
+    element: <Contato />,
   }
 ]);
 

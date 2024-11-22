@@ -7,14 +7,33 @@ export default function About() {
                 <div id="about-image">
                     <img src={imgFloresta} alt="Paisagem de uma floresta" className='md:w-5/6 mx-auto' />
                 </div>
-                <div id="about-infos" className="flex flex-col items-start gap-10 md:gap-20 md:px-20">
+                <div id="about-infos" className="flex flex-col items-start gap-10 md:gap-10 md:px-20">
                     <div id='about-text' className='flex flex-col gap-8'>
-                        <h2 className='text-5xl font-bold'>Eco Journey</h2>
+                        <h2 className='text-5xl font-bold'>O Desafio da Crise Energética</h2>
                         <h3 className='font-medium text-xl md:text-lg leading-7'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita perspiciatis nesciunt beatae eius ab ducimus maiores? Minus ad dolores dolorem impedit atque modi voluptatem pariatur expedita. Eligendi optio dicta harum?
+                            A crise energética é uma realidade que impacta a todos. O esgotamento de combustíveis fósseis, o aumento da poluição e as mudanças climáticas são reflexos de um modelo de consumo insustentável.
                         </h3>
                     </div>
-                    <button className='bg-green-800 py-3 px-5 rounded-xl w-full md:w-auto'>Start Your Sustainability Journey</button>
+                    <ul className='text-lg flex flex-col gap-4'>
+                        <li>
+                            <span className='font-semibold text-xl'>Impactos no Planeta:</span>
+                            <p>
+                                A queima de combustíveis fósseis é responsável por mais de 75% das emissões de gases de efeito estufa.
+                            </p>
+                        </li>
+                        <li>
+                            <span className='font-semibold text-xl'>Na Vida Cotidiana: </span>
+                            <p>
+                                Desastres climáticos, aumento no custo de energia e escassez de recursos naturais afetam diretamente nossa qualidade de vida.
+                            </p>
+                        </li>
+                    </ul>
+                    <div>
+                        <button className='bg-green-800 py-3 px-5 rounded-xl w-full md:w-auto mb-5'>Start Your Sustainability Journey</button>
+                        <h3 className='font-semibold text-slate-400-400 text-md'>
+                            É hora de agir. Precisamos de soluções práticas para mitigar esses impactos e construir um futuro mais sustentável.
+                        </h3>
+                    </div>
                 </div>
             </div>
             <svg
