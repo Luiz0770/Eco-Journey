@@ -1,8 +1,7 @@
-# React + Vite
+## Projeto da Ocean Rescue
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✒️ Autores
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Luiz Felipe Coelho Ramos** - *RM:555074* - [Luiz0770](https://github.com/Luiz0770)
+* **Fernando Gonzales Alexandre** - *RM:555045* - [Fernando1403](https://github.com/Fernando1403)
+* **Lucas Catroppa Piratininga** - *RM:555450* - [Fernando1403](https://github.com/lucasdias0812)
